@@ -15,6 +15,7 @@ from pygments.style import Style
 from pygments.token import Token, Comment, Name, Keyword, Generic, Number, Operator, String
 
 class GruvboxStyle(Style):
+    """ Retro groove color scheme for Vim by Github: @morhetz """
 
     background_color = '#282828'
     styles = {
